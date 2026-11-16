@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f2eb">
+  <meta name="description" content="Sumaira Ghazal — Ph.D. candidate at Kansas State University researching computer vision, machine learning, and intelligent agricultural sensing.">
+  <title>Sumaira Ghazal — Computer Vision Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&amp;family=Libre+Caslon+Display&amp;display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Sumaira Ghazal, home">sg<span>.</span></a>
+    <nav aria-label="Main navigation"><a href="#research">Research</a><a href="#publications">Publications</a><a href="#journey">Experience</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a></nav>
+    <a class="header-cv" href="assets/Sumaira_Resume.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
+  </header>
+  <main id="main">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER VISION · MACHINE LEARNING</p>
+        <h1 id="hero-title">Sumaira<br><em>Ghazal.</em></h1>
+        <p class="hero-statement">Teaching machines to see.<br>Helping agriculture <em>thrive.</em></p>
+        <p class="intro">I’m a Ph.D. candidate in Computer Science at Kansas State University. I develop vision-based methods that turn real-world imagery into insights for intelligent systems.</p>
+        <div class="hero-actions"><a class="button" href="#research">Explore my research <span aria-hidden="true">↘</span></a><a class="text-link" href="https://scholar.google.com/citations?user=a9vWx9IAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-meta"><span>BASED IN MANHATTAN, KANSAS</span><span>KANSAS STATE UNIVERSITY</span></div>
+      </div>
+      <div class="research-art" role="img" aria-label="Abstract field study: crop rows viewed through multispectral sensing layers">
+        <div class="art-top"><span>FIELD NOTES / 001</span><span>VISION → INSIGHT</span></div>
+        <div class="field-diagram" aria-hidden="true"><div class="field-rows"></div><div class="scan-window"><i></i><i></i><i></i><i></i><span>MULTISPECTRAL<br>PERCEPTION</span></div><div class="field-orbit"></div><span class="cross cross-one">+</span><span class="cross cross-two">+</span></div>
+        <div class="spectral-key"><span>RGB</span><i></i><span>NIR</span><i></i><span>RED EDGE</span></div>
+        <div class="art-bottom"><span>Seeing beyond<br><em>the visible.</em></span><span class="art-caption">COMPUTER VISION<br>FOR THE LIVING WORLD</span></div>
+      </div>
+    </section>
+    <div class="metrics section-shell" aria-label="Research at a glance"><div><strong>5</strong><span>Journal articles</span></div><div><strong>2</strong><span>Conference papers</span></div><div><strong>464</strong><span>Scopus citations*</span></div><div><strong>5</strong><span>h-index*</span></div><p>*Research metrics as reported<br>in my supplied resume.</p></div>
+
+    <section class="section-shell research-section" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><p class="eyebrow">01 / RESEARCH & PROJECTS</p><div><h2 id="research-title">From pixels<br>to <em>possibility.</em></h2><p>Computer vision in the field, where changing light, complex environments, and real-world constraints make perception matter.</p></div></div>
+      <div class="research-intro"><span class="small-label">CURRENT RESEARCH</span><p>My USDA-funded research focuses on crop stress using geolocated multispectral imagery. I investigate early nitrogen and water stress detection in maize, combining remote sensing with machine learning.</p></div>
+      <div class="filter-bar" role="group" aria-label="Filter research projects"><button class="filter active" type="button" data-filter="all" aria-pressed="true">All projects <sup>8</sup></button><button class="filter" type="button" data-filter="sensing" aria-pressed="false">Crop sensing</button><button class="filter" type="button" data-filter="vision" aria-pressed="false">Applied vision</button></div>
+      <p class="sr-only" id="filter-status" role="status" aria-live="polite"></p>
+      <div class="project-grid">
+        <article class="project featured" data-category="sensing"><div class="project-top"><span>01 / REMOTE SENSING</span><span aria-hidden="true">↗</span></div><div class="project-visual nitrogen" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><i>6 NITROGEN TREATMENTS</i></div><h3>Multispectral nitrogen<br>treatment classification</h3><p>Investigating six nitrogen treatments with UAV and ground-level imagery. Leave-one-block-out cross-validation evaluates generalization across field replicates.</p><div class="tags"><span>Multispectral imagery</span><span>UAV</span><span>Cross-validation</span></div></article>
+        <article class="project featured" data-category="sensing"><div class="project-top"><span>02 / EDGE INTELLIGENCE</span><span aria-hidden="true">↗</span></div><div class="project-visual water" aria-hidden="true"><div class="leaf leaf-one"></div><div class="leaf leaf-two"></div><div class="leaf leaf-three"></div><i>FIELD → MODEL → EDGE</i></div><h3>Water stress<br>detection in maize</h3><p>Comparing Swin Transformers with a BPNN using visual words and color features for three-class stress classification, including inference evaluation on Raspberry Pi.</p><div class="tags"><span>Swin Transformer</span><span>BoVW</span><span>Raspberry Pi</span></div></article>
+        <article class="project" data-category="sensing"><div class="project-top"><span>03 / DEEP LEARNING</span></div><h3>Nitrogen stress detection</h3><p>Comparing Vision Transformers and transfer learning models to classify nitrogen stress from field imagery.</p><div class="tags"><span>ViT</span><span>Transfer learning</span></div></article>
+        <article class="project" data-category="vision"><div class="project-top"><span>04 / PLANT HEALTH</span></div><h3>Pear leaf disease detection</h3><p>Using PyTorch CNNs and SVM classifiers to identify multiple disease types in pear leaves.</p><div class="tags"><span>PyTorch</span><span>CNN</span><span>SVM</span></div></article>
+        <article class="project" data-category="sensing"><div class="project-top"><span>05 / AERIAL IMAGERY</span></div><h3>Crop row detection from UAVs</h3><p>A MATLAB and Google Colab pipeline using RGB indices and image processing to detect crop rows.</p><div class="tags"><span>MATLAB</span><span>Image processing</span></div></article>
+        <article class="project" data-category="vision"><div class="project-top"><span>06 / MACHINE LEARNING</span></div><h3>Fruit classification</h3><p>Handcrafted RGB features and six machine learning classifiers for multi-class fruit identification.</p><div class="tags"><span>Feature extraction</span><span>MATLAB</span></div></article>
+        <article class="project" data-category="vision"><div class="project-top"><span>07 / QUALITY ASSESSMENT</span></div><h3>Sultana raisin grading</h3><p>An unsupervised Python system that uses color features to grade bulk sultanas.</p><div class="tags"><span>Python</span><span>Unsupervised learning</span></div></article>
+        <article class="project" data-category="vision"><div class="project-top"><span>08 / HUMAN PERCEPTION</span></div><h3>Human activity recognition</h3><p>Recognizing actions in videos through 2D skeleton features, motion analysis, and machine learning classifiers.</p><div class="tags"><span>C++</span><span>Skeleton features</span></div></article>
+      </div>
+    </section>
+
+    <section class="publications-section" id="publications" aria-labelledby="publications-title"><div class="section-shell"><div class="section-heading"><p class="eyebrow">02 / SELECTED PUBLICATIONS</p><div><h2 id="publications-title">Ideas, put<br>into <em>print.</em></h2><p>Research spanning agricultural intelligence, visual feature analysis, and human activity recognition.</p></div></div>
+      <div class="publication-list">
+        <a class="publication" href="https://doi.org/10.1016/j.atech.2026.102519" target="_blank" rel="noopener noreferrer"><span class="pub-year">2026</span><div><span class="pub-journal">SMART AGRICULTURAL TECHNOLOGY</span><h3>From Visual Words to Vision Transformers: Dual Approaches to Water Stress Classification in Maize</h3><p>S. Ghazal et al.</p></div><span class="pub-arrow" aria-hidden="true">↗</span></a>
+        <a class="publication" href="https://doi.org/10.3390/ai5030062" target="_blank" rel="noopener noreferrer"><span class="pub-year">2024</span><div><span class="pub-journal">AI</span><h3>Comparative Analysis of Machine Learning Techniques Using RGB Imaging for Nitrogen Stress Detection in Maize</h3><p>S. Ghazal et al.</p></div><span class="pub-arrow" aria-hidden="true">↗</span></a>
+        <a class="publication" href="https://doi.org/10.1016/j.aiia.2024.06.004" target="_blank" rel="noopener noreferrer"><span class="pub-year">2024</span><div><span class="pub-journal">AI IN AGRICULTURE</span><h3>Computer vision in smart agriculture and precision farming: Techniques and applications</h3><p>S. Ghazal et al.</p></div><span class="pub-arrow" aria-hidden="true">↗</span></a>
+        <a class="publication" href="https://doi.org/10.1016/j.compag.2021.106267" target="_blank" rel="noopener noreferrer"><span class="pub-year">2021</span><div><span class="pub-journal">COMPUTERS AND ELECTRONICS IN AGRICULTURE</span><h3>Analysis of visual features and classifiers for fruit classification problem</h3><p>S. Ghazal et al.</p></div><span class="pub-arrow" aria-hidden="true">↗</span></a>
+        <a class="publication" href="https://doi.org/10.1049/iet-ipr.2019.0030" target="_blank" rel="noopener noreferrer"><span class="pub-year">2019</span><div><span class="pub-journal">IET IMAGE PROCESSING</span><h3>Human activity recognition using 2D skeleton data and supervised machine learning</h3><p>S. Ghazal et al.</p></div><span class="pub-arrow" aria-hidden="true">↗</span></a>
+        <a class="publication" href="https://doi.org/10.1109/ICOMET.2018.8346407" target="_blank" rel="noopener noreferrer"><span class="pub-year">2018</span><div><span class="pub-journal">iCoMET · CONFERENCE PAPER</span><h3>Human posture classification using skeleton information</h3><p>S. Ghazal and U. Khan</p></div><span class="pub-arrow" aria-hidden="true">↗</span></a>
+      </div><a class="text-link" href="https://scholar.google.com/citations?user=a9vWx9IAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer">View my Google Scholar profile <span aria-hidden="true">↗</span></a>
+    </div></section>
+
+    <section class="section-shell journey-section" id="journey" aria-labelledby="journey-title"><div class="section-heading"><p class="eyebrow">03 / EXPERIENCE & EDUCATION</p><div><h2 id="journey-title">A practice built<br>on <em>curiosity.</em></h2><p>Research, teaching, and a commitment to making complex ideas accessible.</p></div></div>
+      <div class="journey-grid"><div><h3 class="small-label">EXPERIENCE</h3><article class="timeline-item"><p class="date">JAN 2023 – DEC 2025 · AUG 2026 – PRESENT</p><h3>Graduate Teaching Assistant</h3><p class="institution">Kansas State University · Computer Science</p><p>Supporting C Language (CIS 308), with previous instruction support across CIS 505/705, CIS 575, and CC 210. Guided educators in the Cyber Pipeline teacher training program.</p></article><article class="timeline-item"><p class="date">SUMMERS 2023–2025 · JAN – AUG 2026</p><h3>Graduate Research Assistant</h3><p class="institution">Kansas State University · ISCAAS Lab</p><p>Developed computer vision and deep learning methods for early nitrogen and water stress detection in maize using remote sensing.</p></article><article class="timeline-item"><p class="date">OCT 2019 – DEC 2022</p><h3>Research Scholar</h3><p class="institution">National Centre of Robotics and Automation · RDDL Lab, Pakistan</p><p>Led computer vision projects in crop row detection, fruit classification, and human activity recognition.</p></article></div>
+      <aside class="education"><h3 class="small-label">EDUCATION</h3><article><span class="date">2023 – PRESENT</span><h3>Ph.D. in<br>Computer Science</h3><p>Kansas State University</p><span class="gpa">GPA 4.0 / 4.0</span></article><article><span class="date">2015 – 2019</span><h3>M.S. in<br>Mechatronics Engineering</h3><p>NUST, Pakistan</p><span class="gpa">GPA 4.0 / 4.0 · GOLD MEDALIST</span></article><div class="education-note">At the intersection of<br><em>engineering & intelligence.</em></div></aside></div>
+    </section>
+
+    <section class="skills-section section-shell" aria-labelledby="skills-title"><p class="eyebrow">04 / TECHNICAL TOOLKIT</p><h2 id="skills-title">The tools behind<br>the <em>work.</em></h2><div class="skill-list"><div><h3>Code & frameworks</h3><p>Python · MATLAB · PyTorch · TensorFlow · Keras</p><small>Also familiar with Java, C, and C++</small></div><div><h3>Vision & learning</h3><p>OpenCV · CNNs · ViT · Swin · BPNNs · Image segmentation</p><small>SVM, KNN, Naive Bayes, Decision Trees, Random Forest, LDA, PCA, K-Means</small></div><div><h3>Sensing & deployment</h3><p>UAV imagery · Multispectral analysis · Pix4Dmapper</p><small>Raspberry Pi · TensorFlow Lite · Vegetation indices · Inference-time evaluation</small></div><div><h3>Research environment</h3><p>Linux · Jupyter · Google Colab · Anaconda · LaTeX</p><small>LabelMe · Microsoft Office</small></div></div></section>
+
+    <section class="leadership-section section-shell" aria-labelledby="leadership-title"><div><p class="eyebrow">05 / COMMUNITY & RECOGNITION</p><h2 id="leadership-title">Progress is<br>a <em>shared effort.</em></h2><p>I contribute through teaching, mentorship, peer review, and leadership in communities that support women in computing and engineering.</p></div><div class="leadership-list"><article><span>2026 – PRESENT</span><h3>President, ACM-W Student Chapter</h3><p>Kansas State University</p></article><article><span>2026 – PRESENT</span><h3>Outreach & Collaboration Chair</h3><p>Society of Women Engineers, K-State</p></article><article><span>2025 – PRESENT</span><h3>Women in Engineering Mentor</h3><p>Kansas State University</p></article><article class="award"><span>APRIL 2026</span><h3>Oral Presentation Winner</h3><p>Engineering & Physical Sciences · K-GRAD, K-State</p></article><details><summary>More service & honors <span aria-hidden="true">+</span></summary><ul><li>Scholarly journal peer reviewer, 2022–present</li><li>President, Pakistan Student Association, K-State, May 2025–May 2026</li><li>Volunteer organizer, 4th Kansas Data Science Conference, May 2026</li><li>Member, Phi Kappa Phi Honor Society and Sigma Xi Research Society</li><li>Gold Medalist (M.S.) and Silver Medalist (B.E.)</li></ul></details></div></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="section-shell"><p class="eyebrow">06 / LET’S CONNECT</p><h2 id="contact-title">Good research starts<br>with a <em>conversation.</em></h2><p>Interested in computer vision, intelligent sensing, or research collaboration? I’d love to connect.</p><a class="email-link" href="mailto:sghazal@ksu.edu">sghazal@ksu.edu <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="https://www.linkedin.com/in/sumairaghazal" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://scholar.google.com/citations?user=a9vWx9IAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="assets/Sumaira_Resume.pdf" download>Download resume ↓</a></div></div></section>
+  </main>
+  <footer class="section-shell"><a class="wordmark" href="#home" aria-label="Back to top">sg<span>.</span></a><p>© <span id="year">2026</span> Sumaira Ghazal</p><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
